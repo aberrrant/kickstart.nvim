@@ -699,6 +699,7 @@ require('lazy').setup({
         vim.lsp.config(name, server)
         vim.lsp.enable(name)
       end
+<<<<<<< HEAD
 
       vim.lsp.config('*', {
         capabilities = {
@@ -736,6 +737,8 @@ require('lazy').setup({
         },
       })
       vim.lsp.enable 'lua_ls'
+=======
+>>>>>>> b9f3965 (Clean up the lua_ls config)
     end,
   },
 
